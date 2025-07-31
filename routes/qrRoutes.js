@@ -76,7 +76,6 @@
 const express = require('express');
 const router = express.Router();
 const WrongAttempt = require('../models/WrongAttempt');
-const Inventory = require('../models/Inventory');
 const qrMap = require('../utils/qrMap');
 
 // POST /api/qr/scan
@@ -88,7 +87,7 @@ router.post('/scan', async (req, res) => {
             return res.status(400).json({ status: 'error', message: 'Missing parameters' });
         }
 
-        // Get expected QR from qrMap
+        // Fetch expected QR ID from qrMap
         const expectedQrId = qrMap[teamId]?.[clueNumber];
 
         console.log("Expected:", expectedQrId);
@@ -99,20 +98,13 @@ router.post('/scan', async (req, res) => {
         }
 
         if (qrId.trim() === expectedQrId.trim()) {
-            // ✅ Correct QR: Fetch corresponding clue from Inventory
-            const clueEntry = await Inventory.findOne({ qrId: expectedQrId });
-
-            if (!clueEntry) {
-                return res.status(404).json({ status: 'error', message: 'Clue not found in inventory' });
-            }
-
             return res.json({
                 status: 'correct',
-                item: clueEntry.clue,
+                item: `Clue ${clueNumber} unlocked successfully!`,
                 clueNumber
             });
         } else {
-            // ❌ Wrong QR: Log the attempt
+            // Log wrong attempt
             await WrongAttempt.create({
                 teamId,
                 attemptedQrId: qrId,
@@ -131,4 +123,3 @@ router.post('/scan', async (req, res) => {
 });
 
 module.exports = router;
-
