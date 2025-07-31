@@ -18,3 +18,4 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/qr', require('./routes/qrRoutes'));
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// code change trigger
