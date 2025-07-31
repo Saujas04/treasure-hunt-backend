@@ -4,11 +4,11 @@ const Team = require('./models/Team');
 require('dotenv').config();
 
 const teams = [
-  { teamId: 'team1', password: 'pass1' },
-  { teamId: 'team2', password: 'pass2' },
-  { teamId: 'team3', password: 'pass3' },
-  { teamId: 'team4', password: 'pass4' },
-  { teamId: 'team5', password: 'pass5' },
+  { teamId: 'team1', password: 'neelgayi777' },
+  { teamId: 'team2', password: 'sabarmati1234' },
+  { teamId: 'team3', password: 'gandhinagar251' },
+  { teamId: 'team4', password: 'wildpig420' },
+  { teamId: 'team5', password: 'saiyaara3000' },
 ];
 
 const seed = async () => {
