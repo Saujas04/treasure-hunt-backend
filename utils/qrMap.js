@@ -6,7 +6,7 @@ module.exports = {
     },
     2: {
       qrId: "qr176",
-      clue: "Click a selfie from the top of the building, and you must be showing thumbs up in it"
+      clue: "Go to first floor of lal minar and click a selfie"
     },
     3: {
       qrId: "qr213",
@@ -28,7 +28,7 @@ module.exports = {
     },
     2: {
       qrId: "qr176",
-      clue: "Click a selfie from the top of the building, and you must be showing thumbs up in it"
+      clue: "Go to first floor of lal minar and click a selfie"
     },
     3: {
       qrId: "qr214",
@@ -50,7 +50,7 @@ module.exports = {
     },
     2: {
       qrId: "qr176",
-      clue: "Click a selfie from the top of the building, and you must be showing thumbs up in it"
+      clue: "Go to first floor of lal minar and click a selfie"
     },
     3: {
       qrId: "qr215",
@@ -72,7 +72,7 @@ module.exports = {
     },
     2: {
       qrId: "qr176",
-      clue: "Click a selfie from the top of the building, and you must be showing thumbs up in it"
+      clue: "Go to first floor of lal minar and click a selfie"
     },
     3: {
       qrId: "qr216",
@@ -94,7 +94,7 @@ module.exports = {
     },
     2: {
       qrId: "qr176",
-      clue: "Click a selfie from the top of the building, and you must be showing thumbs up in it"
+      clue: "Go to first floor of lal minar and click a selfie"
     },
     3: {
       qrId: "qr217",
