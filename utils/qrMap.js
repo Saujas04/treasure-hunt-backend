@@ -76,7 +76,7 @@ module.exports = {
     },
     3: {
       qrId: "qr216",
-      clue: "get the big die"
+      clue: "get the blith alien"
     },
     4: {
       qrId: "qr399",
@@ -90,7 +90,7 @@ module.exports = {
   team5: {
     1: {
       qrId: "qr142",
-      clue: "get a poster of the Blith 25 comedian Pranav Sharma"
+      clue: "get a poster of the Blith 25 comedian Pranav Sharma,link for reference - https://www.instagram.com/p/DFvOT5dOsh_/?igsh=MnhncmFwMjlzYzdu"
     },
     2: {
       qrId: "qr176",
@@ -102,11 +102,11 @@ module.exports = {
     },
     4: {
       qrId: "qr399",
-      clue: "TBD"
+      clue: "get the ananta badge"
     },
     5: {
       qrId: "qr272",
-      clue: "TBD"
+      clue: "get the blith alien"
     }
   }
   // Add more teams and clues as needed
