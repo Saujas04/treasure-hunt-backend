@@ -40,7 +40,7 @@ module.exports = {
     },
     5: {
       qrId: "qr272",
-      clue: "find and get the ananta poster"
+      clue: "get the ananta badge"
     }
   },
   team3: {
@@ -68,7 +68,7 @@ module.exports = {
   team4: {
     1: {
       qrId: "qr141",
-      clue: "get the ananta badge"
+      clue: "get the ananta badge from the glass walls of basketball court"
     },
     2: {
       qrId: "qr176",
